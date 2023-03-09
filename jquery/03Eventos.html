@@ -1,0 +1,26 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos</title>
+    <!--jQuery-->
+    <script src="jquery-3.6.4.min.js"></script>
+    <script>
+
+        // ao carregar o documento
+        $(document).ready(function(){
+
+            //evento de clique
+            $("button").click(function(){
+                //adicionar um texto
+                $("h1").html("Você clicou no botão")
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h1></h1>
+    <button>Clique aqui</button>
+</body>
+</html>

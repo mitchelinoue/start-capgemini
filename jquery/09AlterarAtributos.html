@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alterar atributos</title>
+    <!--jQuery-->
+    <script src="jquery-3.6.4.min.js"></script>
+    <script>
+
+        //ao carregar o documento
+        $(document).ready(function(){
+
+            //selecionar e alterar atributos
+            $("img").attr({
+                "width":"700",
+                "title":"semImagem"
+            });
+
+        });
+
+        document.getElementsById("p")[0].style.color=red;
+
+    </script>
+</head>
+<body>
+    <p>ola</p>
+
+    <img src="https://media.istockphoto.com/id/1357365823/vector/default-image-icon-vector-missing-picture-page-for-website-design-or-mobile-app-no-photo.jpg?s=612x612&w=0&k=20&c=PM_optEhHBTZkuJQLlCjLz-v3zzxp-1mpNQZsdjrbns=" title="noImg" width="100">
+    
+</body>
+</html>
